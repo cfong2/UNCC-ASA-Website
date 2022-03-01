@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="website.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="formValidation.js"></script>
+</head>
+
+
+    <body>
+        <header>
+            <img src="images/blackLogo.png"  class="center" alt="ASA logo" id="logo">
+        </header>
+
+        <div class = "navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="boardPage.html">Meet Your Board</a></li>
+                <li><a href="highlightPage.html">Highlights</a></li>
+                <li><a href="calendarPage.html">Event Calender</a></li>
+                <li><a href="joinPage.html">Join Us!</a></li>
+            </ul>
+        </div>
+    </body>
+
+    <main>
+        <h1 id="contactUsTitle">Contact Us!</h1>
+
+
+        <div id="contact">
+            <form action="formSubmitted.html" method="get"
+                  name="contactForm" id="contactForm">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                    <span>*</span><br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                    <span>*</span><br>
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="999-999-9999">
+                    <span>*</span><br>
+                </fieldset>
+
+                <fieldset>
+                    <label for="textBox"></label>
+                    <textarea name="textBox" id="textBox" autofocus placeholder="Questions and comments can be typed here!" rows="10" cols="80"></textarea>
+                </fieldset>
+
+                <input type="submit" id="submit" value="Submit"><br>
+
+            </form>
+        </div>
+
+
+
+    </main>
+
+<footer class="footer">
+    <h2>Asian Student Association</h2>
+    <p>Business Email: unc.charlotte.asa@gmail.com</p>
+    <p>Got any questions? Feel free to <a href="contactUs.html">contact us!</a></p>
+</footer>
+
+<footer class="secondFooter">
+    <p class="floatLeft">Follow our Social Media for any updates:</p>
+    <div class="row">
+        <div class="column">
+            <a href="https://www.instagram.com/uncc_asa/"><img src="images/instagram.png" alt="instagram"></a>
+        </div>
+        <div class="column">
+            <a href="https://www.facebook.com/unccasa/"><img src="images/facebook.png" alt="facebook"></a>
+        </div>
+        <div class="column">
+            <a href="https://vm.tiktok.com/ZMeBBFNvQ/"><img src="images/tik-tok.png" alt="tiktok"></a>
+        </div>
+    </div>
+</footer>
+
+</html>

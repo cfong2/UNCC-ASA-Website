@@ -1,0 +1,3 @@
+This website was created for the Asian Student Assosiation located at UNCC.
+The current president asked me to create a website that highlighed previous events, current events, and the eboard.
+Along with this he wanted me to create a "contact us" and a "calander" page.

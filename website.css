@@ -1,0 +1,396 @@
+/* CSS file for all pages in the website */
+
+/* global css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FCFCED;
+}
+
+h1, h2, h3, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    width: 479px;
+    height: 284px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Navigation for home page */
+
+.navigation ul {
+    list-style: none;
+    background-color: #ED4747;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 1.4em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: none;
+}
+
+.navigation a {
+    font-family: Verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    letter-spacing: -.9px;
+    color: #FCFCED;
+    font-weight: bolder;
+    display: inline-block;
+    padding-inline: 36px;
+}
+
+.navigation a:hover {
+    background-color: #D12121;
+}
+
+.active {
+    background-color: #B81F1F;
+}
+
+/* Overlay format for home page */
+.overlay {
+    background: black;
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    height:auto;
+}
+
+.overlayAfter{
+    opacity:.5;
+}
+
+.overlayText {
+    color: #FCFCED;
+    font-size: 3.7vw;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+    height:auto;
+    letter-spacing: -1.3px;
+}
+
+#group2 {
+    top: 25%;
+}
+
+/* About us section of home page */
+
+.aboutUs h2 {
+    position:relative;
+    font-size: 4.4vw;
+    text-align:left;
+    padding: 10px 80px 0px 80px;
+    line-height: 0;
+    color: #2E241D;
+
+}
+
+
+.aboutUs p {
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: #2E241D;
+    padding: 10px 80px 0px 80px;
+    position: relative;
+    line-height: 33px;
+}
+
+.floatRight {
+    float:right;
+}
+
+.floatLeft {
+    float:left;
+}
+
+#aboutUsPic {
+    position:relative;
+    margin-bottom: 70px;
+    width: 45%;
+    left: 20px;
+}
+
+/* Meet the board on home page */
+.button {
+    background-color: #FCFCED;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight:bolder;
+    border: none;
+    color: #2E241D;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+
+}
+
+.button:hover {
+    background-color: #BBA6A1;
+    color: #FCFCED;
+}
+
+#boardBtn {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+}
+
+/* event calendar on home page */
+
+
+.calendar {
+    text-align:center;
+    width: 100%;
+    border: 0;
+    position: relative;
+}
+
+.calendar h2 {
+    color: #0E1018;
+    font-weight: bolder;
+    position:relative;
+    font-size: 3vw;
+    text-align:center;
+    padding: 0;
+}
+
+.calendar iframe {
+    width: 800px;
+    height: 600px ;
+    frameborder: 0;
+    scrolling: no;
+    align: center;
+}
+
+.calendar p {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #ED4747;
+}
+
+/*footer*/
+.footer {
+    position: relative;
+    height: 130px;
+    background-color: #2E241D;
+    color: #FCFCED;
+}
+
+.footer h2 {
+    font-size: 1.8vw;
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+.footer p {
+    font-size: 1vw;
+   text-align: center;
+    font-weight: bold;
+}
+
+.footer p a {
+    color: #ED4747;
+}
+
+/*second footer*/
+.secondFooter{
+    background-color: #2E241D;
+    height: 120px;
+}
+
+.secondFooter p{
+    position:relative;
+    top:-10px;
+    color: #FCFCED;
+    font-weight: bold;
+    margin-left: 1%;
+    font-size: 1vw;
+    text-decoration: underline;
+}
+
+.column a {
+    position:relative;
+    width: 2%;
+    float: left;
+    padding: 10px;
+    bottom: -40px;
+    left: -450px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Picture size for board members*/
+.boardMembersImg {
+    float:right;
+    margin-right:280px;
+}
+
+.boardMember {
+    margin-left:260px;
+    margin-bottom: 240px;
+    margin-top: auto;
+}
+
+.interns {
+    margin-left:260px;
+    margin-bottom: 290px;
+    margin-top: auto;
+}
+
+.boardMember img {
+    width: 25%;
+}
+
+.interns img {
+    width: 25%;
+}
+
+.boardMember h2 {
+    position:relative;
+    font-size: 3.5vw;
+    color: #B81F1F;
+}
+
+.interns h2 {
+    position:relative;
+    font-size: 3.5vw;
+    color: #B81F1F;
+}
+
+.boardMember p {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #2E241D;
+    position: relative;
+    top: -30px;
+    line-height: 50px;
+}
+
+.interns p {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #2E241D;
+    position: relative;
+    top: -30px;
+    line-height: 50px;
+}
+
+#interns {
+    top: 25%;
+    font-size: 4vw;
+}
+
+/*Event Calendar Page*/
+#oldCore{
+    top: 40%;
+}
+
+/*Highlights*/
+#highlights {
+    top: 40%;
+    font-size: 4.5vw;
+}
+
+#video h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    color: #FCFCED;
+    background-color: #0E1018;
+    text-decoration: none;
+    line-height: 100px;
+}
+
+#video iframe {
+    width: 80%;
+    height: 600px;
+    display: block;
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    frameborder: 0;
+}
+
+/* bx slider for highlights page */
+#highlight {
+    width: 70%;
+    height: auto;
+    padding: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bx-wrapper {
+    margin-bottom: 20px;
+}
+
+/* Contact Us page */
+#contactUsTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #B81F1F;
+}
+
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+legend {
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #B81F1F;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: .5em;
+}
+
+#contact {
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 600px;
+    border: 3px solid red;
+    padding: 10px 20px;
+}
+
+span {
+    color: #B81F1F;
+}
